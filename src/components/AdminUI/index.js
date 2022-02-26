@@ -50,7 +50,7 @@ const DetailsUI = props => {
         type="checkbox"
       />
       <p className="headings">{name}</p>
-      <p className="headings">{email}</p>
+      <p className="headings email">{email}</p>
       <p className="headings">{role}</p>
       {editingLoadingStatus ? (
         <Popup
@@ -263,7 +263,7 @@ class LoginPageCopy extends Component {
             type="checkbox"
           />
           <p className="top-headings">Name</p>
-          <p className="top-headings">Email</p>
+          <p className="top-headings email">Email</p>
           <p className="top-headings">Role</p>
           <p className="top-headings">Actions</p>
         </div>

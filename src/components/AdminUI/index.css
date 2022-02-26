@@ -36,6 +36,9 @@ body {
   flex-shrink: 0;
   width: 100%;
 }
+.email {
+  margin-right: 30px;
+}
 .headings {
   width: 20%;
   text-align: left;
@@ -49,7 +52,7 @@ body {
   font-weight: bold;
 }
 .chekbox-style {
-  margin-right: 10%;
+  margin-right: 18%;
 }
 .search-bar {
   width: 100%;
