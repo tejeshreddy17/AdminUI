@@ -1,0 +1,179 @@
+body {
+  font-family: roboto;
+}
+.details-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-grow: 1;
+  width: 100%;
+  height: 65vh;
+  align-self: stretch;
+}
+.top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 0.1px solid #e1e1e1;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 0.1px solid #e1e1e1;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-right: 25px;
+  flex-shrink: 0;
+  width: 100%;
+}
+.headings {
+  width: 20%;
+  text-align: left;
+  color: #262626;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.top-headings {
+  width: 20%;
+  text-align: left;
+  font-weight: bold;
+}
+.chekbox-style {
+  margin-right: 10%;
+}
+.search-bar {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #e1e1e1;
+  color: black;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 5px;
+}
+.app-background {
+  padding: 20px 50px 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.checked-box {
+  background-color: beige;
+}
+.delete-selected {
+  background-color: #ff5171;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.trigger-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.icon-style {
+  font-size: 16px;
+}
+.delete-icon-style {
+  color: red;
+  margin-left: 15px;
+  font-size: 18px;
+}
+.popup-background {
+  background-color: white;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 25px;
+  width: 350px;
+  border: 1px solid #e1e1e1;
+}
+.inputs-bg {
+  background-color: white;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+.pop-up-inputs {
+  height: 35px;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  flex-grow: 1;
+  padding-left: 10px;
+  width: 100%;
+  margin-bottom: 5px;
+  outline: none;
+}
+.label-element {
+  color: #262626;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.save-button {
+  background-color: #ff5171;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 15px;
+  align-self: center;
+}
+.close-button {
+  align-self: flex-end;
+}
+.successfull-updation {
+  text-align: center;
+  align-self: center;
+  font-weight: bold;
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+.pagination {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+  align-self: center;
+}
+.page-link {
+  display: block;
+
+  text-decoration: none;
+  margin: 5px;
+}
+.page-item {
+  background-color: white;
+  color: #0d6efd;
+  border-radius: 10px;
+  margin: 15px;
+  cursor: pointer;
+}
+.active {
+  color: white;
+  background-color: #0d6efd;
+}
+.disabled {
+  color: #dee2e6;
+  background-color: white;
+}
