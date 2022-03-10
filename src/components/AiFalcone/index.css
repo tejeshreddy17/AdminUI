@@ -1,0 +1,9 @@
+.grouping-design {
+  display: flex;
+  flex-direction: column;
+}
+.app-background {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
